@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" 
+  integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>To-Do-list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todoapp">
+            <h1>What Today ?</h1>
+            <form  class="inputarea">
+                <input type="text" id="task-input" placeholder="Add a new task.....">
+                <button type="submit" id="add"><i class="fa-solid fa-plus"></i></button>
+            </form>
+            <div class="todo">
+                <ul id="later"></ul>
+                <img class="empty-img"
+                src="https://img.freepik.com/premium-photo/cute-bunny-cartoon-white-background_1287933-395.jpg" alt="empty">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
